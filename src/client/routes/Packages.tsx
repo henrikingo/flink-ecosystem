@@ -29,11 +29,11 @@ export const Packages: FC<Props> = props => {
     <>
       <MainCard>
         <h6>
-          Welcome to flink-packages.org! This page contains third-party projects
-          for <a href="https://flink.apache.org/">Apache Flink</a>
+          Welcome to planet-cassandra.org! This page contains third-party projects
+          for <a href="https://cassandra.apache.org/">Apache Cassandra</a>
         </h6>
         <p className="small">
-          You can explore the Flink ecosystem of connectors, extensions, APIs,
+          You can explore the Cassandra ecosystem of connectors, extensions, APIs,
           tool and integrations here. Developers in the ecosystem can submit
           what they have built as a new package. Comments and votes allow users
           leave feedback, get support and assess the quality of a community
@@ -41,8 +41,8 @@ export const Packages: FC<Props> = props => {
         </p>
         <p className="small">
           Packages listed here are user-submitted, they are not not endorsed by
-          the Apache Flink project or Ververica. This site is not affiliated
-          with or released by Apache Flink, although you may recognize many of
+          the Apache Cassandra project or Datastax. This site is not affiliated
+          with or released by Apache Cassandra, although you may recognize many of
           the same committers.
         </p>
         <p className="small">

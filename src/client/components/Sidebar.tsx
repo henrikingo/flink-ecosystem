@@ -150,7 +150,7 @@ export const Sidebar: FC = () => {
 
           <NavTitle>
             Community Packages
-            <br /> for Apache Flink®
+            <br /> for Apache Cassandra®
           </NavTitle>
         </Link>
         <button className="btn btn-light btn-sm" onClick={toggleMain}>
@@ -207,12 +207,12 @@ export const Sidebar: FC = () => {
           <li className="nav-item mt-4">
             <a
               className="nav-link "
-              href="https://flink.apache.org/"
+              href="https://cassandra.apache.org/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Icon icon={faExternalLinkAlt} title="external link" />
-              Apache Flink Website
+              Apache Cassandra Website
             </a>
           </li>
         </ul>

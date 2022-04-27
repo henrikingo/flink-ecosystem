@@ -29,3 +29,9 @@ You will also need docker to run the project.
   This will create the database, populate it with some dummy data, and start the local server on port 3000.
 
 - Copy `.env.example` to `.env` and replace the values with your own `client_id` and `secret` from your github developer settings.
+
+Note: On Ubuntu 20.04, use NVM to install Node. The Node verion that works with node-sass, which is required, is 12.
+
+    nvm install 12
+    nvm use 12
+    npm install
