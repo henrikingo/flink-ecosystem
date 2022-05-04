@@ -13,7 +13,7 @@ export const PrivacyPolicy: FC<Props> = props => {
   return (
     <LegalCard>
       <h1>Data Privacy Policy</h1>
-      <p>TODO</p>
+      <p><Link to="/privacy-policy">TODO</Link></p>
     </LegalCard>
   );
 };

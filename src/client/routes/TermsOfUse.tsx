@@ -14,7 +14,7 @@ export const TermsOfUse: FC<Props> = props => {
   return (
     <LegalCard>
       <h1>Terms of Use of Use</h1>
-      <p>TODO</p>
+      <p><Link to="/privacy-policy">TODO</Link></p>
     </LegalCard>
   );
 };
