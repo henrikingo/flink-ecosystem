@@ -1,5 +1,6 @@
 export type PackageFormData = {
   category: string;
+  download: string;
   description: string;
   image_id: number;
   image?: any;
@@ -14,6 +15,7 @@ export type PackageFormData = {
 
 export type PackageData = {
   comments: number;
+  download: string;
   downvotes: number;
   id: number;
   owner: string;

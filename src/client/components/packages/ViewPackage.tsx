@@ -4,7 +4,7 @@ import styled from "styled-components/macro";
 import { Col, Row } from "reactstrap";
 import { Comments } from "client/components/comments";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faHome, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faUser, faDownload } from "@fortawesome/free-solid-svg-icons";
 import { Icon } from "client/components/Icon";
 import { MainCard } from "client/components/MainCard";
 import { MarkdownViewer } from "client/components/MarkdownViewer";
@@ -25,6 +25,7 @@ const defaultProps = {
     category: "",
     description: "",
     comments: 0,
+    download: "",
     downvotes: 0,
     id: 0,
     image_id: 0,
@@ -86,6 +87,11 @@ export const ViewPackage: FC<Props> = (props = defaultProps) => {
               {pkg.website}
             </a>
           </span>
+          <br />
+          <Icon icon={faDownload} title="download" />
+          <a href={pkg.download} target="_blank" rel="noopener noreferrer">
+            {pkg.download}
+          </a>
           <br />
           <Icon icon={faGithub} title="github" />
           <a href={pkg.repository} target="_blank" rel="noopener noreferrer">

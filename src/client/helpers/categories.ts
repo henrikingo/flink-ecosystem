@@ -1,12 +1,10 @@
 import {
   faPlug,
-  faTachometerAlt,
   faProjectDiagram,
   faTools,
   faCode,
   faQuestion,
   faDatabase,
-  faServer,
   IconDefinition,
 } from "@fortawesome/free-solid-svg-icons";
 
