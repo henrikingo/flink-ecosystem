@@ -51,6 +51,23 @@ export const Packages: FC<Props> = props => {
           suitable.
         </p>
       </MainCard>
+      <MainCard>
+        <h6>HOWTO</h6>
+        <p className="small">Some of the downloadable packages are separate utilities,
+        that may help you manage or monitor your Cassandra clusters. In such a case, simply
+        install and use the utility or app as it is designed to work.
+        </p>
+        <p className="small">For downloadable packages that are actual Cassandra plugins,
+        enhancing Cassandra itself, do the following:
+        </p>
+        <p className="small">Add the following in your <code>cassandra.in.sh</code> or 
+        <code>~/.cassandra.in.sh</code> file:
+        </p>
+        <code>CLASSPATH="$CLASSPATH:$CASSANDRA_HOME/build/planet-cassandra/*"</code>
+        <p className="small">...then just download the JAR files your find on this site
+        into the <code>build/planet-cassandra/</code> sub folder.
+        </p>
+      </MainCard>
       <MainCard header={`Most Recent Packages (${count})`}>
         <PackageList packages={packages} page={page} />
         <Pager page={page} total={data.totalPages} />
