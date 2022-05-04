@@ -12,10 +12,51 @@ import {
 
 export const categories: category[] = [
   {
+    name: "Plugins",
+    value: "apis",
+    icon: faCode,
+    iconTitle: "code",
+  },
+
+  {
     name: "Connectors",
     value: "connectors",
     icon: faPlug,
     iconTitle: "plug",
+  },
+
+  {
+    name: "GUI tools",
+    value: "gui-tools",
+    icon: faProjectDiagram,
+    iconTitle: "diagram",
+  },
+  {
+    name: "Tools",
+    value: "tools",
+    icon: faTools,
+    iconTitle: "tools",
+  },
+
+  {
+    name: "CQL",
+    value: "cql",
+    icon: faDatabase,
+    iconTitle: "CQL",
+  },
+
+  {
+    name: "User Defined Types",
+    value: "udt",
+    icon: faDatabase,
+    iconTitle: "UDT",
+  },
+
+  {
+    name: "User Defined Functions",
+    value: "udt",
+    icon: faDatabase,
+    iconTitle: "UDT",
   },
 
   {
@@ -24,42 +65,7 @@ export const categories: category[] = [
     icon: faQuestion,
     iconTitle: "question",
   },
-  {
-    name: "Metrics",
-    value: "metrics",
-    icon: faTachometerAlt,
-    iconTitle: "tachometer",
-  },
-  {
-    name: "Tools",
-    value: "tools",
-    icon: faTools,
-    iconTitle: "tools",
-  },
-  {
-    name: "Deployments",
-    value: "deployments",
-    icon: faServer,
-    iconTitle: "server",
-  },
-  {
-    name: "APIs",
-    value: "apis",
-    icon: faCode,
-    iconTitle: "code",
-  },
-  {
-    name: "SQL",
-    value: "sql",
-    icon: faDatabase,
-    iconTitle: "database",
-  },
-  {
-    name: "Machine Learning",
-    value: "machine-learning",
-    icon: faProjectDiagram,
-    iconTitle: "diagram",
-  },
+
 ];
 
 type category = {
