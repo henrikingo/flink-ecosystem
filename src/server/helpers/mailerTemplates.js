@@ -32,6 +32,7 @@ export const packageMailerTemplate = ({
 Name: ${name}
 ID: ${slug}
 Website: ${website}
+Download: ${download}
 Repository: ${repository}
 License: ${license}
 Category: ${category}

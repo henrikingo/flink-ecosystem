@@ -58,6 +58,7 @@ export const initialValues = {
   slug: "",
   tags: "",
   website: "",
+  download: "",
 };
 
 const pickFields = pick(Object.keys(initialValues));
@@ -212,6 +213,16 @@ export const PackageForm: FC<Props> = props => {
               name="website"
               optional
               placeholder="Website"
+              type="url"
+            />
+          </Col>
+          <Col md="4">
+            <InputField
+              id="download"
+              label="Download"
+              name="Download"
+              optional
+              placeholder="Download"
               type="url"
             />
           </Col>
