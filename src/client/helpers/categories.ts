@@ -52,9 +52,9 @@ export const categories: category[] = [
 
   {
     name: "User Defined Functions",
-    value: "udt",
+    value: "udf",
     icon: faDatabase,
-    iconTitle: "UDT",
+    iconTitle: "UDF",
   },
 
   {
