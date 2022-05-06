@@ -109,6 +109,7 @@ export const PackageForm: FC<Props> = props => {
       .map(t => t.trim())
       .join(",");
 
+await Axios.post("/api/v1/foo", data, {});
     try {
       if (inputs.image) {
         const result = await Axios.post("/api/v1/upload-image", inputs.image, {
@@ -220,7 +221,7 @@ export const PackageForm: FC<Props> = props => {
             <InputField
               id="download"
               label="Download"
-              name="Download"
+              name="download"
               optional
               placeholder="Download"
               type="url"
