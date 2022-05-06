@@ -37,6 +37,7 @@ exports.get = [
         "package.readme",
         "package.image_id",
         "package.website",
+        "package.download",
         "package.repository",
         "package.added",
         "package.updated",

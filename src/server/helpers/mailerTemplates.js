@@ -22,6 +22,7 @@ export const packageMailerTemplate = ({
   description,
   readme,
   website,
+  download,
   repository,
   license,
   category,

@@ -15,7 +15,6 @@ export type PackageFormData = {
 
 export type PackageData = {
   comments: number;
-  download: string;
   downvotes: number;
   id: number;
   owner: string;
