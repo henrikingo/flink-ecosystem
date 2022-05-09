@@ -29,7 +29,7 @@ export const Packages: FC<Props> = props => {
     <>
       <MainCard>
         <h6>
-          Welcome to planet-cassandra.org! This page contains third-party projects
+          Welcome to Community Packages for Apache Cassandra! This page contains third-party projects
           for <a href="https://cassandra.apache.org/">Apache Cassandra</a>
         </h6>
         <p className="small">
@@ -63,9 +63,9 @@ export const Packages: FC<Props> = props => {
         <p className="small">Add the following in your <code>cassandra.in.sh</code> or 
         <code>~/.cassandra.in.sh</code> file:
         </p>
-        <code>CLASSPATH="$CLASSPATH:$CASSANDRA_HOME/build/planet-cassandra/*"</code>
+        <code>CLASSPATH="$CLASSPATH:$CASSANDRA_HOME/build/community-packages/*"</code>
         <p className="small">...then just download the JAR files your find on this site
-        into the <code>build/planet-cassandra/</code> sub folder.
+        into the <code>build/community-packages/</code> sub folder.
         </p>
       </MainCard>
       <MainCard header={`Most Recent Packages (${count})`}>
