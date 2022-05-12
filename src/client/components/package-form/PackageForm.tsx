@@ -109,7 +109,6 @@ export const PackageForm: FC<Props> = props => {
       .map(t => t.trim())
       .join(",");
 
-await Axios.post("/api/v1/foo", data, {});
     try {
       if (inputs.image) {
         const result = await Axios.post("/api/v1/upload-image", inputs.image, {
