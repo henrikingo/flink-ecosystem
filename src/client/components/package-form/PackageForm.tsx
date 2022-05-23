@@ -231,6 +231,7 @@ export const PackageForm: FC<Props> = props => {
               id="repository"
               label="Repository"
               name="repository"
+              optional
               placeholder="Repository"
               type="url"
             />

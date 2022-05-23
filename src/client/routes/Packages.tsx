@@ -41,14 +41,9 @@ export const Packages: FC<Props> = props => {
         </p>
         <p className="small">
           Packages listed here are user-submitted, they are not not endorsed by
-          the Apache Cassandra project or Datastax. This site is not affiliated
-          with or released by Apache Cassandra, although you may recognize many of
-          the same committers.
-        </p>
-        <p className="small">
-          We are not checking the license of user-submitted packages. Please
-          check yourself if the license of a package you intend to use is
-          suitable.
+          the Apache Cassandra project or Datastax. We are not checking the license of
+          user-submitted packages. Please check yourself if the license of a package you intend to
+          use is suitable.
         </p>
       </MainCard>
       <MainCard>

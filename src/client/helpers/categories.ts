@@ -1,23 +1,41 @@
 import {
+  faCloud,
   faPlug,
   faProjectDiagram,
+  faBullhorn,
   faTools,
   faCode,
   faQuestion,
   faDatabase,
   IconDefinition,
+  faBook,
+  faCube,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const categories: category[] = [
   {
-    name: "Plugins",
-    value: "apis",
-    icon: faCode,
-    iconTitle: "code",
+    name: "Cloud",
+    value: "cloud",
+    icon: faCloud,
+    iconTitle: "cloud",
   },
 
   {
-    name: "Connectors",
+    name: "Support",
+    value: "support",
+    icon: faBullhorn,
+    iconTitle: "cloud",
+  },
+
+  {
+    name: "Training",
+    value: "training",
+    icon: faBook,
+    iconTitle: "cloud",
+  },
+
+  {
+    name: "Drivers & Frameworks",
     value: "connectors",
     icon: faPlug,
     iconTitle: "plug",
@@ -34,6 +52,13 @@ export const categories: category[] = [
     value: "tools",
     icon: faTools,
     iconTitle: "tools",
+  },
+
+  {
+    name: "Kubernetes",
+    value: "kubernetes",
+    icon: faCube,
+    iconTitle: "kubernetes",
   },
 
   {
@@ -55,6 +80,13 @@ export const categories: category[] = [
     value: "udf",
     icon: faDatabase,
     iconTitle: "UDF",
+  },
+
+  {
+    name: "Plugins",
+    value: "apis",
+    icon: faCode,
+    iconTitle: "code",
   },
 
   {
